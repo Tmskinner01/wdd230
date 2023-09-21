@@ -15,7 +15,7 @@ footer {
 }
 nav {
     list-style: none;
-    background-color: slategray;
+    background-color: #3e5c76;
     text-align: center;
 }
 nav a {
@@ -28,13 +28,13 @@ nav a {
     font-weight: 800;
 }
 nav a:hover {
-    color: steelblue;
-    border: 2px solid steelblue;
+    color: #1d2d44;
+    border: 2px solid #1d2d44;
     background-color: lightgray;
 }
 header {
     color: white;
-    background-color: steelblue;
+    background-color: #1d2d44;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
     grid-template-rows: 1fr;
@@ -57,7 +57,7 @@ main {
 }
 .card h3 {
     color: white;
-    background-color: steelblue;
+    background-color: #1d2d44;
     padding: 1rem;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -66,7 +66,7 @@ main {
     text-align: left;
     list-style: none;
 }footer {
-    background-color: steelblue;
+    background-color: #1d2d44;
     color: white;
 }
 footer img {
