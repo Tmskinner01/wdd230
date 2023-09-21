@@ -26,7 +26,7 @@ footer {
     right: 1rem;
 }
 #mode {
-    right: 4rem;
+    right: 3.5rem;
     cursor: pointer;
 }
 #menu:hover, #mode:hover {
@@ -85,6 +85,7 @@ header h1 {
     grid-column: 3/4;
     font-family: "Roboto Condensed", "Roboto", sans-serif;
     font-size: 1.5em;
+    z-index: 4;
 
 }
 main {
