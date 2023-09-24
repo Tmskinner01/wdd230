@@ -8,6 +8,10 @@ header, main, footer {
 }
 h1, h2, h3, h4 {
     font-family: "Red Hat Display", sans-serif;
+    color: white;
+}
+p {
+    color: white;
 }
 #heading {
     display: flex;
@@ -96,6 +100,10 @@ header img {
 #call-to-action p {
     margin: 1em auto;
     margin-bottom: 2em;
+    color: black;
+}
+#call-to-action h3 {
+    color: black;
 }
 #call-to-action a {
     background: #22577A;
@@ -112,6 +120,9 @@ header img {
     border: 2px solid #38A3A5;
     margin-top: 10rem;
 }
+#community-info h2, #community-info p {
+    color: black;
+}
 #weather {
     background-color: #22577A;
     padding: 2rem;
@@ -120,6 +131,9 @@ header img {
 #business-spotlights {
     margin-top: 10rem;
     margin-bottom: 10rem;
+}
+#business-spotlights h2 {
+    color: black;
 }
 #business-images {
     background-color: #38A3A5;
@@ -130,6 +144,9 @@ header img {
     grid-gap: .5rem;
     padding-top: 0; 
     margin-top: 0;   
+}
+#business-images h4 {
+    color: black;
 }
 .business-card {
     width: 100%;
