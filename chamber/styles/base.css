@@ -4,6 +4,19 @@ header, main, footer {
     margin: 1rem auto;
     padding: 1rem;
     text-align: center;
+
+}
+h1, h2, h3, h4 {
+    font-family: "Red Hat Display", sans-serif;
+}
+#heading {
+    display: flex;
+}
+#heading h1 {
+    margin: 3rem auto;
+}
+nav {
+    margin: 4em auto;
 }
 header {
     background-color: #22577A;
