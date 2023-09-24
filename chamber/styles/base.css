@@ -1,0 +1,133 @@
+header, main, footer {
+    font-family: "Roboto", sans-serif;
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+header {
+    background-color: #22577A;
+}
+header img {
+    width: 100%;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+}
+.navigation li a:hover {
+    border: 2px solid #38A3A5 ;
+}
+#menu {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    padding: 3px 7px 6px;
+    background-color: #22577A;
+    color: white;
+    position:relative;
+    margin-top: 1rem;
+}
+#menu:hover {
+    border: 2px solid #38A3A5 ;
+}
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "❌";
+}
+.open li {
+    display: block;
+    width: 100%;
+}
+.open li a {
+    display: block;
+}
+.active::before {
+    content: "🏛️";
+}
+#hero-container {
+    width: 100%;
+}
+#hero-img {
+    width: 100%;
+}
+.hero-card {
+    width: 80%;
+    background-color:#22577A;
+    margin: 0 auto;
+    padding: .5rem;
+}
+#call-to-action {
+    background-color: #38A3A5;
+    padding: 2rem;
+    margin: 2rem auto;
+    margin-top: 5rem;
+}
+#call-to-action p {
+    margin: 1em auto;
+    margin-bottom: 2em;
+}
+#call-to-action a {
+    background: #22577A;
+    padding: .75rem;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+}
+#call-to-action a:hover {
+    background-color: #80ED99;
+    color: #22577A;
+}
+#general-info {
+    border: 2px solid #38A3A5;
+    margin-top: 10rem;
+}
+#weather {
+    background-color: #22577A;
+    padding: 2rem;
+    border-top: 4px solid #80ED99;
+}
+#business-spotlights {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#business-images {
+    background-color: #38A3A5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    margin:0 auto;
+    grid-gap: .5rem;
+    padding-top: 0; 
+    margin-top: 0;   
+}
+.business-card {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0;
+    padding-top: 0;
+}
+.business-img {
+    width: 100%;
+}
+footer {
+    background-color: #22577A;
+    color: white;
+}
