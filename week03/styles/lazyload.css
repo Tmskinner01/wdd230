@@ -1,0 +1,19 @@
+main {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: auto;
+    background: black;
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+footer {
+    text-align: center;
+}
