@@ -1,8 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 header img {
     width: 100%;
-    border-radius: 5%;
-    box-shadow: 5px 4px 25px black;
+    height: auto;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px black;
     grid-column: 2/3;
+}
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px;
+}
+.hero-label {
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    background: radial-gradient(#fff #4d5b97);
+    border: 1px solid rgba (0,0,0,.75);
+    padding: .5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: .75;
+    max-width: 8rem;
+}
+.hero-label p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", serif;
+    z-index: -1
+    ;
 }
 header,
 main,
@@ -24,6 +53,7 @@ footer {
 }
 #menu {
     right: 1rem;
+    color: #fff;
 }
 #mode {
     right: 3.5rem;
@@ -50,6 +80,7 @@ footer {
 }
 .navigation li {
     display: none;
+    z-index: 3;
 }
 .navigation li a {
     display: block;
@@ -111,10 +142,18 @@ main {
 .card ul li a {
     color: black;
 }
+#map
+{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 5%;
+    margin: 3rem auto;
+}
 footer {
     background-color: #1d2d44;
     color: white;
 }
 footer img {
     height: .75em;
+    object-fit: fill;
 }

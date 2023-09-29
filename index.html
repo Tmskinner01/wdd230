@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <img src="images/pfp.jpg" alt="Profile Image">
+        <img src="images/pfp.webp" alt="Profile Image">
         <h1>Todd Skinner</h1>
         <button id="mode" name="darkModeButton">🌃</button>
     </header>
@@ -38,6 +38,15 @@
         </ul>
     </nav>
     <main>
+        <div id="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)" class="hero-img">
+                <img src="images/hero-large.webp" alt="Winter Quarters Nebraska Temple" class="hero-img">
+            </picture>
+            <div class="hero-label">
+                <p>Winter Quarters Nebraska Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -54,13 +63,17 @@
             <h3>Information</h3>
             <p>Indiana, USA</p>
             <p>Weather</p>
-            <p>Page visits: </p>
+            <p>Page visits: <span id="visits"></span> </p>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23924.722978386457!2d-85.2708528981224!3d41.44810910501354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x881614bc1912a415%3A0xfc484abe02304d59!2sKendallville%2C%20IN%2046755!5e0!3m2!1sen!2sus!4v1695959262565!5m2!1sen!2sus"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map">
+        </iframe>
     </main>
     <footer>
-        <p> &copy; <span id="year">year</span> - Todd Skinner - Indiana, USA <img src="images/american-flag.jpg" alt="American Flag"></p>
+        <p> &copy; <span id="year">year</span> - Todd Skinner - Indiana, USA <img src="images/american-flag.webp" alt="American Flag" loading="lazy" height="5" width="20"></p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getVisits.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
