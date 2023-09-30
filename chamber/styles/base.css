@@ -15,18 +15,21 @@ p {
 }
 #heading {
     display: flex;
+    margin: 0 auto;
 }
 #heading h1 {
     margin: 3rem auto;
 }
 nav {
-    margin: 4em auto;
+    margin: 1em auto;
 }
 header {
     background-color: #22577A;
+    border-bottom: 10px solid #38A3A5;
 }
 header img {
-    width: 100%;
+    width: 20%;
+    height: auto;
     object-fit: contain;
 }
 .navigation {
@@ -78,33 +81,53 @@ header img {
     display: block;
 }
 .active::before {
-    content: "🏛️";
+    content: "➡️";
 }
 #hero-container {
     width: 100%;
 }
 #hero-img {
     width: 100%;
+    height: auto;
 }
 .hero-card {
-    width: 80%;
+    width: 70%;
     background-color:#22577A;
     margin: 0 auto;
     padding: .5rem;
 }
+.hero-card img {
+    width: 35%;
+    height: auto;
+}
+.hero-card p {
+    font-size: 1rem;
+    font-style: oblique;
+}
+.hero-card h3{
+    font-size: 1.5rem;
+    margin: .5rem auto;
+}
+.hero-card .card-impact {
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
 #call-to-action {
-    background-color: #38A3A5;
+    background-color: #22577A;
     padding: 2rem;
     margin: 2rem auto;
     margin-top: 5rem;
+    border-bottom: 2rem solid #38A3A5;
+    border-left: .5rem solid #38A3A5;
 }
 #call-to-action p {
     margin: 1em auto;
     margin-bottom: 2em;
-    color: black;
+    color: white;
 }
 #call-to-action h3 {
-    color: black;
+    color: white;
 }
 #call-to-action a {
     background: #22577A;
@@ -114,8 +137,8 @@ header img {
     text-decoration: none;
 }
 #call-to-action a:hover {
-    background-color: #80ED99;
-    color: #22577A;
+    background-color: #38A3A5;
+    color: black;
 }
 #general-info {
     border: 2px solid #38A3A5;
@@ -137,14 +160,15 @@ header img {
     color: black;
 }
 #business-images {
-    background-color: #38A3A5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1em;
     margin:0 auto;
     grid-gap: .5rem;
     padding-top: 0; 
-    margin-top: 0;   
+    margin-top: 0;
+    border-top: 10px solid #38A3A5; 
+    border-bottom: 15px solid #38A3A5;
 }
 #business-images h4 {
     color: black;
@@ -157,8 +181,54 @@ header img {
 }
 .business-img {
     width: 100%;
+    height: auto;
 }
 footer {
     background-color: #22577A;
     color: white;
+}
+
+/*v Discover CSS v*/
+#discover-main {
+    display: grid;
+    grid-gap: 1rem;
+}
+#slider {
+    display: grid;
+    grid-gap: 1rem;
+    width: 100%;
+    height: auto;
+}
+.card {
+    border: 1px solid black;
+    width: 100%;
+    box-shadow: 5px 5px 15px;
+    background-color: white;
+}
+.card p {
+    color: black;
+}
+.card h3 {
+    background-color: #22577A;
+    padding: .75rem;
+    margin: 0 auto;
+}
+#gallery h4 {
+    color: black;
+    font-style: oblique;
+}
+#gallery p {
+    color: black;
+}
+#gallery img {
+    box-shadow: 5px 5px 15px;
+    border-top-right-radius: 5%;
+    width: 100%;
+    height: auto;
+}
+#calendar {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin: 0 auto;
 }

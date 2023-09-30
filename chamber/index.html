@@ -25,14 +25,14 @@
 <body>
     <header>
         <div id="heading">
-            <img src="https://placehold.co/50x50" alt="logo placeholder">
+            <img src="images/logo.webp" alt="Kendallville Chamber Logo">
             <h1>Kendallville Chamber of Commerce</h1>
         </div>
         <nav>
             <button id="menu" name="menuButton"></button>
             <ul class="navigation">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="">Discover</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="">Directory</a></li>
                 <li><a href="">Join</a></li>
             </ul>
@@ -40,30 +40,32 @@
     </header>
     <main>
         <div id="hero-container">
-            <img id="hero-img" src="images/hero.jpg" alt="Downtown Kendallville">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <img id="hero-img" src="images/hero-large.webp" alt="Downtown Kendallville" width="1200" height="400">
+            </picture>
             <div class="hero-card" id="hero-card-1">
-                <h3>Title</h3>
-                <img src="https://placehold.co/100x100" alt="placeholder">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img src="images/employers.webp" alt="employers icon" width="200" height="200" loading="lazy">
+                <p>WE REPRESENT</p>
+                <h3>Employers in Kendallville</h3>
+                <h3 class="card-impact">250+</h3>
             </div>
             <div class="hero-card" id="hero-card-2">
-                <h3>Title</h3>
-                <img src="https://placehold.co/100x100" alt="placeholder">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img src="images/manufacturing.webp" alt="manufacturing icon" width="200" height="200" loading="lazy">
+                <p>WE SUPPORT</p>
+                <h3> Our Leading Industry</h3>
+                <h3 class="card-impact">Manufacturing</h3>
             </div>
             <div class="hero-card" id="hero-card-3">
-                <h3>Title</h3>
-                <img src="https://placehold.co/100x100" alt="placeholder">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img src="images/growth.webp" alt="growth icon" width="200" height="200" loading="lazy">
+                <p>WE CULTIVATE</p>
+                <h3>Community Growth Since</h3>
+                <h3 class="card-impact">1925</h3>
             </div>
         </div>
         <div id="call-to-action" >
             <h3>Join the Kendallville Chamber of Commerce now!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Our purpose is to provide all member businesses with purpose-driven benefits to improve, grow, and strengthen their business.</p>
             <a href="join.html">Join</a>
         </div>
         <div id="general-info">
@@ -84,20 +86,16 @@
             <h2>Business Spotlights</h2>
             <div id="business-images">
                 <div class="business-card">
-                    <h4>Business Name</h4>
-                    <img class="business-img" src="https://placehold.co/200x200" alt="placeholder">
+                    <img class="business-img" src="images/kraft-heinz.webp" alt="Kraft Heinz Logo" width="500" height="300" loading="lazy">
                 </div>
                 <div class="business-card">
-                    <h4>Business Name</h4>
-                    <img class="business-img" src="https://placehold.co/200x200" alt="placeholder">
+                    <img class="business-img" src="images/lakeside.webp" alt="Lakeside Book Company Logo" width="500" height="300" loading="lazy">
                 </div>
                 <div class="business-card">
-                    <h4>Business Name</h4>
-                    <img class="business-img" src="https://placehold.co/200x200" alt="placeholder">
+                    <img class="business-img" src="images/php.webp" alt="PHP Logo" width="500" height="300" loading="lazy">
                 </div>
                 <div class="business-card">
-                    <h4>Business Name</h4>
-                    <img class="business-img" src="https://placehold.co/200x200" alt="placeholder">
+                    <img class="business-img" src="images/shepherds.webp" alt="Shepherd's Family Auto Logo" width="500" height="300" loading="lazy">
                 </div>
             </div>
         </div>
