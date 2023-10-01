@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 header img {
     width: 100%;
     height: auto;
@@ -38,8 +36,7 @@ picture {
     font-family: "Great Vibes", serif;
     z-index: -1;
 
-    background: radial-gradient(#fff #4d5b97);
-    border: 1px solid rgba (0,0,0,.75);
+    border: 1px solid gray;
     box-shadow: 0 0 3rem #fff;
 }
 header,
@@ -56,7 +53,7 @@ footer {
     border: none;
     padding: 3px 7px 6px;
     background-color: #1d2d44;
-    color: 000;
+    color: #000;
     position: absolute;
     top: 2rem;
 }
