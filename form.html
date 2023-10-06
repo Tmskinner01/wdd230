@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Todd Skinner - Form">
+    <meta name="author" content="Todd Skinner">
+
+    <meta property="og:title" content="Todd Skinner - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://tmskinner01.github.io/wdd230/images/fort-wayne-museum.JPG">
+    <meta property="og:url" content="https://tmskinner01.github.io/wdd230/">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/pfp.webp" alt="Profile Image">
+        <h1>Todd Skinner</h1>
+    </header>
+    <nav>
+        <button id="menu" name="menuButton"></button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home" class="active">Home</a></li>
+            <li><a href="https://tmskinner01.github.io/wdd230/chamber" target="_blank" title="Chamber">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html" target="_blank" title="Site Plan">Site Plan</a></li>
+            <li><a href="form.html" title="Form">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" onsubmit="return checkSame()">
+            <fieldset>
+                <legend>Account Setup</legend>
+                <label class="top">Username* <input type="text" name="username" id="username" required></label>
+                <div id="passwordMessage"></div>
+                <label class="top">Password* <input type="password" name="password" id="password" required placeholder="Minimum: six characters" pattern="{6}"></label>
+                <label class="top">Confirm Password* <input type="password" name="confirmedPassword" id="confirmedPassword"  pattern=".{6,}"></label>
+                <label class="top">Email* <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="someone@byui.edu"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Feedback</legend>
+                <label class="slider">Page Rating <input type="range" name="r" id="r" min="1" max="10" value="5" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <div id="rangevalue">5</div>
+            </fieldset>
+            <input type="submit" value="Create Account" class="submitButton">
+        </form>
+    </main>
+    <footer>
+        <p> &copy; <span id="year">year</span> - Todd Skinner - Indiana, USA <img src="images/american-flag.webp" alt="American Flag" loading="lazy" height="5" width="20"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/responsiveMenu.js"></script>
+    <script src="scripts/formSubmission.js"></script>
+</body>
+</html>

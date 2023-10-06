@@ -163,3 +163,8 @@ footer img {
     height: .75em;
     object-fit: fill;
 }
+
+/*---------------------RECORD PAGE--------------*/
+#formConfirm {
+    grid-column: 1/3;
+}

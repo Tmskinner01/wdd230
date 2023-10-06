@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Todd Skinner - Form">
+    <meta name="author" content="Todd Skinner">
+
+    <meta property="og:title" content="Todd Skinner - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://tmskinner01.github.io/wdd230/images/fort-wayne-museum.JPG">
+    <meta property="og:url" content="https://tmskinner01.github.io/wdd230/">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/pfp.webp" alt="Profile Image">
+        <h1>Todd Skinner</h1>
+    </header>
+    <nav>
+        <button id="menu" name="menuButton"></button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home" class="active">Home</a></li>
+            <li><a href="https://tmskinner01.github.io/wdd230/chamber" target="_blank" title="Chamber">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html" target="_blank" title="Site Plan">Site Plan</a></li>
+            <li><a href="form.html" title="Form">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="formConfirm">
+            <h1>Response Submitted</h1>
+            <p>Thank you for taking the time to create an account and leave feedback!</p>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="year">year</span> - Todd Skinner - Indiana, USA <img src="images/american-flag.webp" alt="American Flag" loading="lazy" height="5" width="20"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getVisits.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/responsiveMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+</body>
+</html>
