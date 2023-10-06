@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
     header, main, footer {
         max-width: 100%;
     }
@@ -71,10 +71,12 @@
         padding-left: 5rem;
         padding-right: 5rem;
     }
+
+    /*v------DISCOVER PAGE------v*/
     #discover-main {
         display: flex;
         align-items: start;
-        max-width: 80%;
+        width: 80%;
     }
     #slider {
         top: 0;
@@ -92,6 +94,34 @@
     }
     #gallery img:hover {
         transform: scale(1.1);
+    }
+
+    /*v---------JOIN PAGE--------*/
+    #joinMain {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    #membership-details {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    #membership-details h2 {
+        font-size: 3rem;
+    }
+    #membership-details h3 {
+        font-size: 2rem;
+    }
+    form {
+        grid-column: 1/2;
+        max-width: 25rem;
+    }
+    form label.top input, form label.top textarea, form input.submitButton {
+        max-width: 25rem;
+    }
+    form input.submitButton {
+        font-size: larger;
     }
 
 }

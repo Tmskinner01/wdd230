@@ -1,3 +1,10 @@
+:root {
+    --primaryColor: #22577A;
+    --secondaryColor: #38A3A5;
+    --accentColor: #80ED99;
+    --headerFont: "Red Hat Display", sans-serif
+}
+
 header, main, footer {
     font-family: "Roboto", sans-serif;
     max-width: 640px;
@@ -188,7 +195,7 @@ footer {
     color: white;
 }
 
-/*v Discover CSS v*/
+/*v---------DISCOVER PAGE-------v*/
 #discover-main {
     display: grid;
     grid-gap: 1rem;
@@ -231,4 +238,112 @@ footer {
     height: 100%;
     object-fit: fill;
     margin: 0 auto;
+}
+
+/*v-------------JOIN PAGE--------------v*/
+#membership-details h2 {
+    color: black;
+}
+#membership-details h3 {
+    background-color: var(--primaryColor);
+    border-bottom: 2px solid var(--secondaryColor);
+}
+#membership-details p, #membership-details li {
+    color: black;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: .75rem;
+}
+form {
+    width: 100%;
+    margin: 0rem auto;
+    text-align: left;
+}
+form fieldset {
+    border-radius: .75rem;
+    border: 1px solid var(--primaryColor);
+    border-top: 4px solid#38A3A5;
+    box-shadow: 5px 5px 15px var(--secondaryColor) ;
+    margin: 2rem auto;
+}
+form legend {
+    font-size: larger;
+    background-color: var(--primaryColor);
+    color: white;
+    margin: 1rem;
+    padding: .75rem;
+    box-shadow: 5px 5px 15px var(--primaryColor);
+    border-top-right-radius: 10px;
+    border-top: 1px solid var(--accentColor);
+    border-left: 1px solid var(--accentColor);
+    font-family: var(--headerFont);
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: var(--primaryColor);
+    font-weight: 600;
+    font-family: var(--headerFont);
+}
+form label.top input, form label.top textarea, form input.submitButton {
+    width: 80%;
+}
+form label.top input {
+    display: block;
+    font: 1rem;
+    border: 1px solid var(--primaryColor);
+    background-color: aliceblue;
+    border-top-right-radius: 6px;
+    padding: .75rem;
+    box-shadow: 2px 2px 8px var(--primaryColor);
+}
+form label.top textarea {
+    display: block;
+    font: 1rem;
+    border: 1px solid var(--primaryColor);
+    background-color: aliceblue;
+    border-top-right-radius: 6px;
+    padding: .75rem;
+    max-width: 15rem;
+    box-shadow: 2px 2px 8px var(--primaryColor);
+    margin-bottom: .5rem;
+}
+form input.submitButton {
+    border: none;
+    background-color: var(--primaryColor);
+    border-radius: .5rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    border-top: 2px solid var(--secondaryColor);
+    border-left: 2px solid var(--secondaryColor);
+    color: white;
+    box-shadow: 5px 5px 15px var(--secondaryColor);
+    font-family: var(--headerFont);
+    font-size: .5rem;
+}
+form input.submitButton:hover{
+    background-color: var(--secondaryColor);
+    color: black;
+    box-shadow: 5px 5px 15px var(--secondaryColor);
+    border-top: 2px solid var(--accentColor);
+    border-left: 2px solid var(--accentColor);
+}
+form label.top input:required {
+    border-bottom: red solid 2px;
+}
+form label.top input:required:valid {
+    border-bottom: none;
+}
+
+#thankyou-message h2, #thankyou-message p{
+    color: black;
+}
+#thankyou-message {
+    margin: 15rem auto;
 }

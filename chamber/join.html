@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendallville Chamber of Commerce | Home</title>
+    <meta name="description" content="The offical site for the Kendallville Indiana Chamber of Commerce">
+    <meta name="author" content="Todd Skinner">
+
+    <meta property="og:title" content="Kendallville Chamber of Commerce - Official Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://tmskinner01.github.io/wdd230/chamber/images/hero.jpg">
+    <meta property="og:url" content="https://tmskinner01.github.io/wdd230/chamber">
+
+    <link rel="icon" href="chamber-favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="heading">
+            <img src="images/logo.webp" alt="Kendallville Chamber Logo">
+            <h1>Kendallville Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <button id="menu" name="menuButton"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="joinMain">
+        <div id="membership-details">
+            <h2>Membership Tiers</h2>
+            <h3>NP</h3>
+            <p>This tier provides basic membership for non profit organizations and there is no fee. Benefits include:</p>
+            <ul>
+                <li>Your own page on the Chamber website with a link to your business website or Facebook page</li>
+                <li>Direct Member-to-Member advertising through the Chamber website. </li>
+                <li>Member Directory listing.</li>
+                <li>Free business card and brochure display at Chamber. </li>
+            </ul>
+            <h3>Bronze</h3>
+            <p>This tier provides basic membership for standard businesses and costs $399.00 USD annually. Benefits include: <p>
+            <ul>
+                <li>Your own page on the Chamber website with a link to your business website or Facebook page</li>
+                <li>Direct Member-to-Member advertising through the Chamber website. </li>
+                <li>Member Directory listing.</li>
+                <li>Free business card and brochure display at Chamber. </li>
+                <li>Opportunity to advertise on the Chamber’s website.</li>
+            </ul>
+            <h3>Silver</h3>
+            <p>This tier provides premium membership for businesses and costs $1,500.00 USD annually. Benefits include all of the benefits listed for Bronze Membership, PLUS:</p>
+            <ul>
+                <li>Free “Hot Deal” Promotions on our website.</li>
+                <li>Free participation in our Chamber Check Program to increase your sales and keep money local</li>
+                <li>Promotional materials in golf outing goody bags.</li>
+                <li>Ribbon cuttings.</li>
+                <li>Professional business referrals </li>
+            </ul>
+            <h3>Gold</h3>
+            <p>This tier provides ultimate membership for businesses and costs $2,500.00 USD annually. Benefits include all of the benefits listed for Bronze and Silver Memberships, PLUS:</p>
+            <ul>
+                <li>Business and legislative advocacy services</li>
+                <li>Free “Behind the Mic” radio spot promos every 2nd & 4th Friday.</li>
+                <li>Professional Development workshop luncheons</li>
+                <li>Mentoring, training and workshops on a variety of topics (provided through a partnership with SCORE and the Better Business Bureau) </li>
+                <li>Networking opportunities </li>
+                <li>Discounts to all Chamber-sponsored events </li>
+                <li>Free use of the Chamber conference room for meetings and events</li>
+                <li>PHP Healthcare Discount! Employers can save up to 30% over ACA Plans!</li>
+                <li>Member-to-Member discount program</li>
+            </ul>
+        </div>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label class="top">Position/Title <input type="text" name="position" id="position" pattern="^[a-zA-Z \-]{7,}$"></label>
+                <label class="top">Email* <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" id="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="bname" id="bname"></label>
+                
+                <div>Membership Level</div>
+                <label class="sbs" title="Non Profit Organizations: No Fee"> <input type="radio" name="membership" value="NP"> NP</label>
+                <label class="sbs"> <input type="radio" name="membership" value="NP"> Bronze</label>
+                <label class="sbs"> <input type="radio" name="membership" value="NP"> Silver</label>
+                <label class="sbs"> <input type="radio" name="membership" value="NP"> Gold</label>
+
+
+                <label class="top">Business Description <textarea name="bdescription" id="bdescription" cols="30" rows="10"></textarea></label>
+            </fieldset>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" class="submitButton" value="Join the Chamber">
+        </form>
+    </main>
+    <footer>
+        <p> &copy; <span id="year">year</span> Kendallville Chamber of Commerce | Todd Skinner | WDD230 Project | tmskinner01@gmail.com </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/responsiveMenu.js"></script>
+    <script src="scripts/formDate.js"></script>
+</body>
+</html>
