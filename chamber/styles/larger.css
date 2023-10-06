@@ -78,6 +78,11 @@
         align-items: start;
         width: 80%;
     }
+    #calendar {
+        display:inline;
+        height: auto;
+        width: auto;
+    }
     #slider {
         top: 0;
         position: sticky;

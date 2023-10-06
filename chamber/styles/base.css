@@ -197,8 +197,7 @@ footer {
 
 /*v---------DISCOVER PAGE-------v*/
 #discover-main {
-    display: grid;
-    grid-gap: 1rem;
+    display: inline;
 }
 #slider {
     display: grid;
@@ -232,12 +231,19 @@ footer {
     border-top-right-radius: 5%;
     width: 100%;
     height: auto;
+    margin: 1rem auto;
 }
 #calendar {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+    display: none;
     margin: 0 auto;
+}
+#calendar-link {
+    padding: .5rem;
+    background-color: var(--primaryColor);
+    margin: 1rem auto;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 /*v-------------JOIN PAGE--------------v*/
