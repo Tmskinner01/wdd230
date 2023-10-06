@@ -45,7 +45,7 @@ form label.top input {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 15rem;
+    max-width: 10rem;
 }
 form label.slider input {
     display: block;
@@ -67,7 +67,7 @@ form input.submitButton {
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
-    max-width: 15rem;
+    max-width: 10rem;
 }
 form input.submitButton:hover{
     background-color: var(--secondarycolor);
