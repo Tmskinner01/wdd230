@@ -1,0 +1,33 @@
+:root {
+    --mainColor: #061A40;
+    --secondaryColor: #0353A4;
+    --accentColor: #006DAA;
+    --lightColor: #B9D6F2;
+    --headingFont: sans-serif;
+}
+.card {
+    background-color: var(--lightColor);
+    border: 2px solid var(--accentColor);
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    width: 90%;
+    font-family: var(--headingFont);
+}
+.card h2 {
+    background-color: var(--mainColor);
+    color: white;
+    padding: 1rem;
+}
+.card img {
+    margin: 1rem auto;
+    border-radius: 5%;
+    width: 80%;
+    height: auto;
+    object-fit: fill;
+}
+#cards {
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(320px, 1fr));
+}
