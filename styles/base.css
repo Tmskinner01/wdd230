@@ -149,6 +149,10 @@ main {
 .card ul li a {
     color: black;
 }
+#weather-icon{
+    margin: 0 auto;
+    padding: none;
+}
 #map
 {
     width: 100%;
