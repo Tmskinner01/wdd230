@@ -1,0 +1,87 @@
+[
+    {
+        "familyName": "Smith",
+        "moveInDate": "9/12/2023",
+        "familySize": "8",
+        "visitedByBishopric":true,
+        "members": [
+            {
+                "name": "James",
+                "gender": "male",
+                "birthdate": "10/15/1979"
+            },
+            {
+                "name": "Abigail",
+                "gender": "female",
+                "birthdate": "01/17/1977"
+            },
+            {
+                "name": "Matthew",
+                "gender": "male",
+                "birthdate": "10/27/2000"
+            },
+            {
+                "name": "Anne",
+                "gender": "female",
+                "birthdate": "08/28/2002"
+            },
+            {
+                "name": "Tyler",
+                "gender": "male",
+                "birthdate": "12/18/2005"
+            },
+            {
+                "name": "Mark",
+                "gender": "male",
+                "birthdate": "06/10/2008"
+            },
+            {
+                "name": "Lucas",
+                "gender": "male",
+                "birthdate": "02/12/2010"
+            },
+            {
+                "name": "Sarah",
+                "gender": "female",
+                "birthdate": "10/14/2014"
+            }
+        ]
+
+    },
+    {  
+        "familyName": "Fisher",
+        "moveInDate": "9/30/2023",
+        "familySize": "2",
+        "visitedByBishopric":true,
+        "members": [
+            {
+                "name": "Alex",
+                "gender": "male",
+                "birthdate": "04/24/1995"
+            },
+            {
+                "name": "Samantha",
+                "gender": "female",
+                "birthdate": "02/11/1994"
+            }
+        ]
+    },
+    {
+        "familyName": "Martin",
+        "moveInDate": "10/06/2023",
+        "familySize": "2",
+        "visitedByBishopric":false,
+        "members": [
+            {
+                "name": "Darrell",
+                "gender": "male",
+                "birthdate": "09/24/1963"
+            },
+            {
+                "name": "Sylvia",
+                "gender": "female",
+                "birthdate": "11/21/1965"
+            }
+        ]
+    }
+]
