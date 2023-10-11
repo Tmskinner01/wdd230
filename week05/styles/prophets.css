@@ -3,7 +3,17 @@
     --secondaryColor: #0353A4;
     --accentColor: #006DAA;
     --lightColor: #B9D6F2;
-    --headingFont: sans-serif;
+    --mainFont: sans-serif;
+}
+header {
+    font-family: var(--mainFont);
+    text-align: center;
+    font-size: 1.5rem;
+}
+main {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 .card {
     background-color: var(--lightColor);
@@ -12,7 +22,7 @@
     text-align: center;
     margin: 1rem auto;
     width: 90%;
-    font-family: var(--headingFont);
+    font-family: var(--mainFont);
 }
 .card h2 {
     background-color: var(--mainColor);
