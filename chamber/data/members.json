@@ -1,0 +1,69 @@
+{
+    "members": [
+        {
+            "name": "3 Rivers Federal Credit Union",
+            "address": "551 W. North St Kendallville, IN 46755",
+            "phone": "260-343-0350",
+            "website": "https://www.3riversfcu.org/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/3rivers.webp",
+            "membership":"Gold"
+        },
+        {
+            "name": "Aluminum Recovery Technologies, INC",
+            "address": "2170 Production Rd. Kendallville, IN 46755",
+            "phone": "260-349-1590",
+            "website": "http://www.aluminumrt.com/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/art.webp",
+            "membership":"Silver"
+        },
+        {
+            "name": "Blue Sky Family Restaurant",
+            "address": "400 W North St Kendallville, IN 46755",
+            "phone": "260-242-5822",
+            "website": "http://blueskyrestaurant.net/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/blue-sky.webp",
+            "membership":"Bronze"
+        },
+        {
+            "name": "East Noble School Corporation",
+            "address": "126 W. Rush St Kendallville, IN 46755",
+            "phone": "260-347-2502",
+            "website": "https://www.eastnoble.net/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/east-noble.webp",
+            "membership":"Silver"
+        },
+        {
+            "name": "Kendallville Public Library",
+            "address": "221 S. Park. Ave Kendallville, IN 46755",
+            "phone": "260-343-2010",
+            "website": "https://www.kendallvillelibrary.org/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/kpl.webp",
+            "membership":"NP"
+        },
+        {
+            "name": "Lakeside Book Company",
+            "address": "3094 Lester Dr. Kendallville, IN 46755",
+            "phone": "260-349-6856",
+            "website": "http://www.lakesidebookcompany.com/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/lakeside.webp",
+            "membership":"Silver"
+        },
+        {
+            "name": "Life and Family Services",
+            "address": "201 S. Park Ave Kendallville, IN 46755",
+            "phone": "260-347-5720",
+            "website": "http://www.lfsfamilies.org/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/lfs.webp",
+            "membership":"NP"
+        },
+        {
+            "name": "Quick Tanks",
+            "address": "545 N. Krueger Street Kendallville, IN 46755",
+            "phone": "260-347-3850",
+            "website": "https://chamberorganizer.com/kendallvillechamber/mp_QuickTanks",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/quick-tanks.webp",
+            "membership":"Bronze"
+        }
+        
+    ]
+}
