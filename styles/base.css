@@ -146,6 +146,9 @@ main {
     text-align: left;
     list-style: none;
 }
+.card li {
+    margin: .5rem auto;
+}
 .card ul li a {
     color: black;
 }
