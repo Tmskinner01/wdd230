@@ -1,6 +1,5 @@
 const url = "https://tmskinner01.github.io/wdd230/chamber/data/members.json";
 
-const main = document.querySelector("#directory-main");
 const directory = document.querySelector("#directory");
 const gridButton = document.querySelector("#grid-button");
 const listButton = document.querySelector("#list-button");
@@ -8,7 +7,7 @@ const listButton = document.querySelector("#list-button");
 async function getMemberData(){
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.members);
+    //console.table(data.members);
     displayMembers(data.members);
 };
 
