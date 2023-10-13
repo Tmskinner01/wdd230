@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kendallville Chamber of Commerce | Join</title>
+    <title>Kendallville Chamber of Commerce | Directory</title>
     <meta name="description" content="The offical site for the Kendallville Indiana Chamber of Commerce">
     <meta name="author" content="Todd Skinner">
 
@@ -33,16 +33,19 @@
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="">Directory</a></li>
-                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div id="thankyou-message">
-            <h2>Thank You For Applying to the Kendallville Chamber of Commerce!</h3>
-            <p>We will review your application shortly.</p>
+    <main id="directory-main">
+        <div id="directory-header">
+            <h1>Member Directory</h1>
+            <div>
+                <button id="list-button"><img src="images/list-icon.webp" alt="list icon" class="view-icon"></button>
+                <button id="grid-button"><img src="images/grid-icon.webp" alt="grid icon" class="view-icon"></button></div>
         </div>
+       <div id="directory" class="directory-grid"></div>
     </main>
     <footer>
         <p> &copy; <span id="year">year</span> Kendallville Chamber of Commerce | Todd Skinner | WDD230 Project | tmskinner01@gmail.com </p>
@@ -50,5 +53,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

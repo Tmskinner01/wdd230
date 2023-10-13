@@ -128,5 +128,46 @@
     form input.submitButton {
         font-size: larger;
     }
-
+    /*v-----------DIRECTORY--------v*/
+    #directory-main {
+        width: 80%;
+    }
+    .directory-grid {
+        display: grid;
+        grid-template-columns: 
+        repeat(auto-fit, minmax(320px, 1fr)); 
+        grid-gap: 3rem;
+        width: 80%;
+        margin: 1rem auto;
+        margin-bottom: 4rem;
+    }
+    .directory-grid .directory-card {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+    .directory-list .directory-card {
+        font-size: medium;
+        display: grid;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        grid-template-columns: 2fr 1fr 2fr 2fr 1fr ;
+    }
+    .directory-list .directory-card a {
+        height: 1rem;
+        grid-column: 5/6;
+        grid-row: 1/2;
+        
+    }
+    .directory-list {
+        text-align: left;
+    }
+    #directory-main h1 {
+        font-size: 3rem;
+    }
+    #directory-header {
+        display: grid;
+    }
+    .directory-list p, .directory-list h3, .directory-list h2{
+        margin: 1rem auto;
+    }
 }
