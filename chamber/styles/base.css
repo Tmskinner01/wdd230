@@ -36,11 +36,8 @@ header {
 }
 header img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
-}
-header a {
-    width: 50%;
 }
 .navigation {
     list-style: none;
@@ -99,6 +96,7 @@ header a {
 #hero-img {
     width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 .hero-card {
     width: 70%;
@@ -215,7 +213,7 @@ footer {
     background-color: #22577A;
     color: white;
 }
-#banner{
+.banner-show{
     background-color: #38A3A5;
     display: grid;
     grid-template-columns: 10fr 1fr;
@@ -236,6 +234,9 @@ footer {
 }
 #banner button:hover {
     transform: scale(1.2);
+}
+.banner-hide {
+    display: none;
 }
 
 /*v---------DISCOVER PAGE-------v*/
