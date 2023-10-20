@@ -7,7 +7,7 @@
 
 header, main, footer {
     font-family: "Roboto", sans-serif;
-    max-width: 640px;
+    max-width: 800px;
     margin: 1rem auto;
     padding: 1rem;
     text-align: center;
@@ -116,7 +116,7 @@ header img {
     margin: .5rem auto;
 }
 .hero-card .card-impact {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
@@ -150,18 +150,41 @@ header img {
 #general-info {
     border: 2px solid #38A3A5;
     margin-top: 10rem;
+    box-shadow: 5px 5px 15px;
+}
+#community-info {
+    margin: 2rem auto;
 }
 #community-info h2, #community-info p {
+    color: black;
+    padding: 1rem ;
+}
+#community-info a{
+    background-color: #22577A;
+    padding: .75rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#community-info a:hover {
+    background-color: #38A3A5;
     color: black;
 }
 #weather {
     background-color: #22577A;
     padding: 2rem;
-    border-top: 4px solid #80ED99;
+    display: grid;
+    grid-gap: 1rem;
+}
+.weather-div {
+    border: 2px solid #38A3A5;
+    border-radius: 8px;
+    width: 100%;
 }
 #business-spotlights {
     margin-top: 10rem;
     margin-bottom: 10rem;
+    width: 100%;
 }
 #business-spotlights h2 {
     color: black;
@@ -169,26 +192,21 @@ header img {
 #business-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 1em;
     margin:0 auto;
     grid-gap: .5rem;
     padding-top: 0; 
     margin-top: 0;
-    border-top: 10px solid #38A3A5; 
+    border-top: 10px solid #38A3A5;
     border-bottom: 15px solid #38A3A5;
+    width: 100%;
+
 }
 #business-images h4 {
     color: black;
 }
 .business-card {
     width: 100%;
-    margin: 1rem auto;
-    padding: 0;
-    padding-top: 0;
-}
-.business-img {
-    width: 100%;
-    height: auto;
+    margin: 0 auto;
 }
 footer {
     background-color: #22577A;
