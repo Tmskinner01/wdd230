@@ -35,9 +35,12 @@ header {
     border-bottom: 10px solid #38A3A5;
 }
 header img {
-    width: 20%;
+    width: 100%;
     height: auto;
     object-fit: contain;
+}
+header a {
+    width: 50%;
 }
 .navigation {
     list-style: none;
@@ -211,6 +214,28 @@ header img {
 footer {
     background-color: #22577A;
     color: white;
+}
+#banner{
+    background-color: #38A3A5;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    padding: 1.5rem;
+    text-align: center;
+    border:2px solid #80ED99;
+}
+#banner p 
+{
+    font-size: 1.5rem;
+    font-family: "Red Hat Display", "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+}
+#banner button {
+    border: none;
+    background-color: #38A3A5;
+}
+#banner button:hover {
+    transform: scale(1.2);
 }
 
 /*v---------DISCOVER PAGE-------v*/
