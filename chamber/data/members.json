@@ -33,12 +33,28 @@
             "membership":"Silver"
         },
         {
+            "name": "Indiana Physical Therapy",
+            "address": "860 N. Lima Rd Kendallville, IN 46755",
+            "phone": "260-432-4700",
+            "website": "https://www.indianapt.com/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/ipt.webp",
+            "membership":"Silver"
+        },
+        {
             "name": "Kendallville Public Library",
             "address": "221 S. Park. Ave Kendallville, IN 46755",
             "phone": "260-343-2010",
             "website": "https://www.kendallvillelibrary.org/",
             "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/kpl.webp",
             "membership":"NP"
+        },
+        {
+            "name": "Kraft Heinz",
+            "address": "151 W Ohio St Kendallville, IN 46755",
+            "phone": "260-347-1300",
+            "website": "https://www.kraftheinzcompany.com/",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/kraft.webp",
+            "membership":"Gold"
         },
         {
             "name": "Lakeside Book Company",
@@ -55,6 +71,14 @@
             "website": "http://www.lfsfamilies.org/",
             "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/lfs.webp",
             "membership":"NP"
+        },
+        {
+            "name": "SCORE Northeast Indiana",
+            "address": "3201 Stellhorn Rd. Fort Wayne, IN 46815",
+            "phone": "260-422-2601",
+            "website": "https://chamberorganizer.com/kendallvillechamber/mp_scorene",
+            "logo": "https://tmskinner01.github.io/wdd230/chamber/images/directory/score.webp",
+            "membership":"Gold"
         },
         {
             "name": "Quick Tanks",
