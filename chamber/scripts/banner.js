@@ -8,7 +8,6 @@ function showBanner() {
 }
 function hideBanner() {
     bannerDiv.classList.add("banner-hide")
-    console.log("Banner Hidden")
 }
 if (weekDay =="3") {
     bannerText.textContent = "This Evening"

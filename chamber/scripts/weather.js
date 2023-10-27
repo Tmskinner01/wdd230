@@ -7,7 +7,7 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            //console.log(data);
             displayResults(data)
         }
         else {
@@ -15,7 +15,7 @@ async function apiFetch() {
         }
     }
     catch (error) {
-        console.log(error);
+        //console.log(error);
     }
 
 }
@@ -41,8 +41,6 @@ function getForecast(data, day) {
     captionDesc.textContent = `${capitalize(desc)}`;
     let forecastDate = data.list[day].dt_txt.substring(0,10);
     forecastDate = new Date(forecastDate)
-    console.log(data.list[day].dt_txt);
-    console.log(forecastDate);
     weekDay.textContent = weekdayString(forecastDate);
 
     weatherDiv.appendChild(weekDay)

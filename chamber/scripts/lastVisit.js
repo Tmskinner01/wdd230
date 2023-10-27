@@ -21,9 +21,6 @@ else {
     a = Date.parse(localStorage.a);
     n = (a-b) / msToDays;
 
-    console.log(a);
-    console.log(b);
-    console.log(n);
 }
 
 if (n == 0) {

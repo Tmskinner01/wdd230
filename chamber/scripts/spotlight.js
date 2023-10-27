@@ -5,7 +5,7 @@ const spotlight = document.querySelector("#business-images");
 async function getMemberData(){
     const response = await fetch(api);
     const data = await response.json();
-    console.table(data.members);
+    //console.table(data.members);
     displaySpotlights(data.members);
 };
 
