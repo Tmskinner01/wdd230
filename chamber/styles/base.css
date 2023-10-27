@@ -108,9 +108,10 @@ header img {
     width: 35%;
     height: auto;
 }
-.hero-card p {
+.hero-card h2 {
     font-size: 1rem;
     font-style: oblique;
+    font-weight: 200;
 }
 .hero-card h3{
     font-size: 1.5rem;
@@ -258,12 +259,12 @@ footer {
 .card p {
     color: black;
 }
-.card h3 {
+.card h2 {
     background-color: #22577A;
     padding: .75rem;
     margin: 0 auto;
 }
-#gallery h4 {
+#gallery h3 {
     color: black;
     font-style: oblique;
 }
